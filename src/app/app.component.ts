@@ -10,4 +10,9 @@ export class AppComponent {
   a = 2;
   b = 2;
   listo = false;
+  constructor(){
+    setTimeout(() => {
+      this.listo = true;
+    }, 3000)
+  }
 }
