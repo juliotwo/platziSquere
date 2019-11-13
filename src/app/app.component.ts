@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'platzisquere';
+  a = 2;
+  b = 2;
+  listo = false;
 }
